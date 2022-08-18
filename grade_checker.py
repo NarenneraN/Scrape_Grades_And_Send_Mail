@@ -27,8 +27,8 @@ driver.implicitly_wait(5)
 username_box = driver.find_element(by="xpath",value='//input[@id="username"]')
 password_box = driver.find_element(by="xpath",value='//input[@id="password"]')
 submit_btn = driver.find_element(by="xpath",value='//input[@class="btn-submit"]')
-username_box.send_keys('CB.EN.U4CSE20616')
-password_box.send_keys('droideronline')
+username_box.send_keys('CB.EN.U4CSE20XXXX')
+password_box.send_keys('XYXYXYXY')
 submit_btn.click()
 # WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.ID,"maincontentframe")))
 # WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.ID,"Iframe1")))
@@ -76,8 +76,8 @@ if(len(table_len)>2):
     from email.mime.base import MIMEBase
     from email import encoders
 
-    fromaddr = "narendhiran.pugazhendhi@gmail.com"
-    toaddr = "rajmiracle2023@gmail.com"
+    fromaddr = "XYXYXXYXYX@gmail.com"
+    toaddr = "YYYXXXYYXYXYX@gmail.com"
 
     # instance of MIMEMultipart
     msg = MIMEMultipart()
@@ -122,7 +122,7 @@ if(len(table_len)>2):
     s.starttls()
 
     # Authentication
-    s.login(fromaddr, "rfdjiokatgjhomtn")
+    s.login(fromaddr, "set-up-your-app-pswd-and-enter")
 
     # Converts the Multipart msg into a string
     text = msg.as_string()
